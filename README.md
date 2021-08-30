@@ -19,11 +19,15 @@ yarn add -D ssh://git@github.com:minemanemo/eslint-config-airbnbtsnext.git
 
 ```json
 {
-  ...,
-  "extends": ["eslint-config-airbnbtsnext"],
-  // or
-  "extends": ["eslint-config-airbnbtsnext/typescript"],
-  ...,
+  "extends": ["eslint-config-airbnbtsnext"]
+}
+```
+
+or
+
+```json
+{
+  "extends": ["eslint-config-airbnbtsnext/typescript"]
 }
 ```
 
@@ -33,9 +37,7 @@ yarn add -D ssh://git@github.com:minemanemo/eslint-config-airbnbtsnext.git
 
 ```json
 {
-  ...,
-  "extends": ["eslint-config-airbnbtsnext/cypress"],
-  ...,
+  "extends": ["eslint-config-airbnbtsnext/cypress"]
 }
 ```
 
@@ -45,9 +47,7 @@ yarn add -D ssh://git@github.com:minemanemo/eslint-config-airbnbtsnext.git
 
 ```json
 {
-  ...,
-  "extends": ["eslint-config-airbnbtsnext/jest"],
-  ...,
+  "extends": ["eslint-config-airbnbtsnext/jest"]
 }
 ```
 
